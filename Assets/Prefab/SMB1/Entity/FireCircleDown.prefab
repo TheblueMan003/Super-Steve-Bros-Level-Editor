@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2705092664227045558
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2705092664227045599}
+  - component: {fileID: 2705092664227045487}
+  m_Layer: 0
+  m_Name: FireCircleDown
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2705092664227045599
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2705092664227045558}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 697.4758, y: 313.7153, z: -769.01434}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2705092664227045487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2705092664227045558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d53ff2544746a746b00a27168f73653, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tile: {fileID: 11400000, guid: 937878801ab0fad489d2020e5f7491a5, type: 2}
+  icon: {fileID: 21300000, guid: 7c6c4ef6f232d494bb80e6c51639e077, type: 3}
+  icon_name: fire_circle
+  ruleTile: {fileID: 0}
+  layer: 0
+  name: FireCircle Counterwise
+  mcName: 
+  seizable: 0
+  maxWidth: 0
+  maxHeight: 0
+  pos: 0
+  structured: 0
+  cells: []
+  entity: armor_stand
+  data: '{CustomName:"\"FireCircle\"",Invisible:1, Tags:["down"],NoGravity:1}'

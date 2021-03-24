@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2107457945319590383
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5588341592879748693}
+  - component: {fileID: 1719943044077062777}
+  m_Layer: 0
+  m_Name: HammerBrosCave
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5588341592879748693
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107457945319590383}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 697.4758, y: 313.7153, z: -769.01434}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1719943044077062777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107457945319590383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d53ff2544746a746b00a27168f73653, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tile: {fileID: 11400000, guid: 27ca4c1b826ca524fa84129c530ea4a1, type: 2}
+  icon: {fileID: 21300000, guid: de646c04bf920ed488214c8a07180aff, type: 3}
+  icon_name: hammer_bros_cave
+  ruleTile: {fileID: 0}
+  layer: 0
+  name: HammerBrosCave
+  mcName: 
+  seizable: 0
+  maxWidth: 0
+  maxHeight: 0
+  pos: 0
+  structured: 0
+  cells: []
+  shifted: 1
+  entity: armor_stand
+  data: '{CustomName:"\"Goomba\"",Invisible:1,Tags:["HammerBros","Cave","has_been_tag"],NoGravity:1}'

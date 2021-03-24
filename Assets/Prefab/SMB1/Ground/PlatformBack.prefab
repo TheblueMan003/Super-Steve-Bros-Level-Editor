@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9219337993250827326
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3405668860571972484}
+  - component: {fileID: 3782863006253504986}
+  m_Layer: 0
+  m_Name: PlatformBack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3405668860571972484
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9219337993250827326}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 697.4758, y: 313.7153, z: -769.01434}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3782863006253504986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9219337993250827326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d61a1e4b50ad1b41b1938f63245f280, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tile: {fileID: 11400000, guid: 244c9b149da78dd4d94cbd89a382f4a1, type: 2}
+  icon: {fileID: 21300000, guid: 82ad43b7a5bb2d548bd48a08d274dbda, type: 3}
+  icon_name: white_wool
+  ruleTile: {fileID: 11400000, guid: 4f6073e287dd3b94499bf66a076ec69b, type: 2}
+  layer: 1
+  name: PlatformBottom
+  mcName: white_wool
+  seizable: 0
+  maxWidth: 0
+  maxHeight: 0
+  pos: 0
+  structured: 0
+  cells: []
+  blockID: white_wool
+  conds:
+  - conds:
+    - {x: 1, y: 0}
+    id: white_wool

@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2621584643112024414
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8677282929831014135}
+  - component: {fileID: 2986483416140246016}
+  m_Layer: 0
+  m_Name: CastleNight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8677282929831014135
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2621584643112024414}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.1817317, y: 7.004679, z: 71.59399}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2986483416140246016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2621584643112024414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d61a1e4b50ad1b41b1938f63245f280, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tile: {fileID: 11400000, guid: 9d6b19ecdcb760b479c34211923be31b, type: 2}
+  icon: {fileID: 21300000, guid: 57595d7d40b0267468c8381bb1a08886, type: 3}
+  icon_name: red_concrete_powder
+  ruleTile: {fileID: 0}
+  layer: 1
+  name: 
+  mcName: 
+  seizable: 0
+  maxWidth: 0
+  maxHeight: 0
+  pos: 0
+  structured: 1
+  cells:
+  - item: {fileID: 3459275758737989393, guid: c68af34a48d4ee14d934f0d5767c9ad7, type: 3}
+    pos: {x: -2, y: 0, z: 0}
+  - item: {fileID: 3459275758737989393, guid: c68af34a48d4ee14d934f0d5767c9ad7, type: 3}
+    pos: {x: -1, y: 0, z: 0}
+  - item: {fileID: 3459275758737989393, guid: c68af34a48d4ee14d934f0d5767c9ad7, type: 3}
+    pos: {x: 1, y: 0, z: 0}
+  - item: {fileID: 3459275758737989393, guid: c68af34a48d4ee14d934f0d5767c9ad7, type: 3}
+    pos: {x: 2, y: 0, z: 0}
+  - item: {fileID: 3459275758737989393, guid: c68af34a48d4ee14d934f0d5767c9ad7, type: 3}
+    pos: {x: -2, y: 1, z: 0}
+  - item: {fileID: 3459275758737989393, guid: c68af34a48d4ee14d934f0d5767c9ad7, type: 3}
+    pos: {x: -1, y: 1, z: 0}
+  - item: {fileID: 3459275758737989393, guid: c68af34a48d4ee14d934f0d5767c9ad7, type: 3}
+    pos: {x: 1, y: 1, z: 0}
+  - item: {fileID: 3459275758737989393, guid: c68af34a48d4ee14d934f0d5767c9ad7, type: 3}
+    pos: {x: 2, y: 1, z: 0}
+  - item: {fileID: 6695628386271704279, guid: 7785cdba4ca86fc49b369901acb038d7, type: 3}
+    pos: {x: 0, y: 0, z: 0}
+  - item: {fileID: 8383775846653577186, guid: d418eb578e323c448a2a449b7d81c39d, type: 3}
+    pos: {x: 0, y: 1, z: 0}
+  - item: {fileID: 3057535600690223042, guid: 9ea44c88b616cbc44a8afcff8449a800, type: 3}
+    pos: {x: -2, y: 2, z: 0}
+  - item: {fileID: 3057535600690223042, guid: 9ea44c88b616cbc44a8afcff8449a800, type: 3}
+    pos: {x: 2, y: 2, z: 0}
+  - item: {fileID: 1803275905162127635, guid: 91d436eb236266d4687ed189e9801e98, type: 3}
+    pos: {x: -1, y: 2, z: 0}
+  - item: {fileID: 1803275905162127635, guid: 91d436eb236266d4687ed189e9801e98, type: 3}
+    pos: {x: 0, y: 2, z: 0}
+  - item: {fileID: 1803275905162127635, guid: 91d436eb236266d4687ed189e9801e98, type: 3}
+    pos: {x: 1, y: 2, z: 0}
+  - item: {fileID: 6967145538292467051, guid: 85087aea430970b449fe74c2c8e45f21, type: 3}
+    pos: {x: -1, y: 3, z: 0}
+  - item: {fileID: 3459275758737989393, guid: c68af34a48d4ee14d934f0d5767c9ad7, type: 3}
+    pos: {x: 0, y: 3, z: 0}
+  - item: {fileID: 8725526161663438673, guid: d362666dbe97f05408598cc34669c721, type: 3}
+    pos: {x: 1, y: 3, z: 0}
+  - item: {fileID: 3057535600690223042, guid: 9ea44c88b616cbc44a8afcff8449a800, type: 3}
+    pos: {x: -1, y: 4, z: 0}
+  - item: {fileID: 3057535600690223042, guid: 9ea44c88b616cbc44a8afcff8449a800, type: 3}
+    pos: {x: 0, y: 4, z: 0}
+  - item: {fileID: 3057535600690223042, guid: 9ea44c88b616cbc44a8afcff8449a800, type: 3}
+    pos: {x: 1, y: 4, z: 0}
+  blockID: 
+  conds: []
